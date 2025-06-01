@@ -1,46 +1,73 @@
-# ElevateLabs_AI-ML_TASK-02
-# Exploratory Data Analysis (EDA) on Titanic Dataset
-This project performs EDA on the Titanic dataset using Pandas, Matplotlib, and Seaborn to uncover patterns and insights.
+# ElevateLabs_AI-ML_TASK-02  
+Exploratory Data Analysis (EDA) using the Titanic dataset
 
-## 🔍 Objective
-Understand the structure, distribution, and patterns in the data using visual and statistical tools.
+# 📊 Task 2: Exploratory Data Analysis (EDA)
 
-## 📊 What’s Covered
-- Summary statistics (mean, median, std)
-- Handling missing data
-- Visualizations (histograms, boxplots, pairplot)
-- Correlation matrix
-- Feature-level insights and trends
+## 🔍 Objective  
+The objective of this task is to explore and analyze the Titanic dataset using statistical and visual techniques. The goal is to identify trends, patterns, and relationships among features that can inform future predictive modeling.
 
-## 🛠 Tools Used
-- Pandas
-- Seaborn
-- Matplotlib
-- Plotly (optional)
+---
 
 ## 📁 Dataset
-Titanic Dataset from Kaggle: [Link](https://www.kaggle.com/datasets/yasserh/titanic-dataset)
 
-## 📊 Visualizations Included
+- **Name**: Titanic Dataset  
+- **Source**: [Kaggle Titanic Dataset](https://www.kaggle.com/datasets/yasserh/titanic-dataset)  
+- **File Used**: `Titanic-Dataset.csv`
 
-### 🔹 Individual Visualizations
-- 📊 **Histograms** of all numeric features (`Age`, `Fare`, `SibSp`, `Parch`, etc.)
-- 📦 **Boxplot** showing the distribution of `Age` by `Survived` status
-- 🔥 **Correlation heatmap** to observe linear relationships between numeric features
-- 🌀 **Pairplot** of `Age`, `Fare`, and `Pclass` against survival status for multivariate exploration
+---
 
-### 🖼️ Combined Visual Summary in `results.png`
-The following visualizations are saved in one single image file named **`results.png`**:
-- Histogram of `Fare`
-- Boxplot of `Age` vs `Survived`
-- Correlation Heatmap
-- Scatter Plot: `Age` vs `Fare` colored by `Survived`
+## 🚀 Steps Performed
 
-This compact summary provides a quick visual overview of key relationships and patterns in the Titanic dataset.
+1. **Data Loading**: Loaded dataset using Pandas.
+2. **Data Summary**:
+   - Explored dataset structure, column types, and missing values.
+   - Reviewed statistical summaries (mean, median, std, etc.).
+3. **Visualization & Analysis**:
+   - **Histograms** plotted for all numeric features to analyze distributions.
+   - **Boxplot** drawn for `Age vs Survived` to study survival based on age.
+   - **Correlation Heatmap** to identify linear relationships between features.
+   - **Pairplot** created for `Age`, `Fare`, and `Pclass` against `Survived`.
+4. **Combined Visual Summary**:
+   - All major plots were combined and saved in one image file: `results.png`.
 
-## 📌 How to Run
-1. Clone the repository.
-2. Install dependencies using `pip install -r requirements.txt`.
-3. Open `Task-02.ipynb` and run all cells.
+---
+
+## 🛠 Tools & Libraries Used
+
+- Python
+- Jupyter Notebook
+- Pandas, NumPy
+- Matplotlib, Seaborn
+
+---
+
+## 📎 Result
+
+EDA visualizations were successfully generated and saved as images for better understanding and reference.
+
+### 🖼️ Individual Visualizations:
+- 📦 **Boxplot (Age vs Survived)**  
+  ![Boxplot](Boxplot%20Age%20vs%20Survived.png)
+
+- 🔥 **Correlation Heatmap**  
+  ![Heatmap](Correlation%20Matrix.png)
+
+- 📊 **Histogram of Numeric Features**  
+  ![Histogram](Histogram%20of%20Numerical%20Features.png)
+
+- 🌀 **Pairplot (Age, Fare, Pclass vs Survived)**  
+  ![Pairplot](Pairplot.png)
+
+### 🖼️ Combined Visual Summary:
+- 🖼️ **All key plots in one**  
+  ![Combined](results.png)
+
+---
+
+## 📚 Key Takeaways
+
+- Visualizations help uncover trends and anomalies in data.
+- EDA is critical for understanding the dataset before applying machine learning algorithms.
+- Combined views like `results.png` provide a quick overview for stakeholders and teammates.
 
 ---
