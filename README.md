@@ -43,31 +43,22 @@ The objective of this task is to explore and analyze the Titanic dataset using s
 
 ## 📎 Result
 
-EDA visualizations were successfully generated and saved as images for better understanding and reference.
-
 ### 🖼️ Individual Visualizations:
-- 📦 **Boxplot (Age vs Survived)**  
+- 📦 ***Boxplot (Age vs Survived)***  
   ![Boxplot](Boxplot%20Age%20vs%20Survived.png)
 
-- 🔥 **Correlation Heatmap**  
+- 🔥 ***Correlation Heatmap***  
   ![Heatmap](Correlation%20Matrix.png)
 
-- 📊 **Histogram of Numeric Features**  
+- 📊 ***Histogram of Numeric Features***  
   ![Histogram](Histogram%20of%20Numerical%20Features.png)
 
-- 🌀 **Pairplot (Age, Fare, Pclass vs Survived)**  
+- 🌀 ***Pairplot (Age, Fare, Pclass vs Survived)***  
   ![Pairplot](Pairplot.png)
 
 ### 🖼️ Combined Visual Summary:
-- 🖼️ **All key plots in one**  
+- 🖼️ ***All key plots in one***  
   ![Combined](results.png)
 
 ---
 
-## 📚 Key Takeaways
-
-- Visualizations help uncover trends and anomalies in data.
-- EDA is critical for understanding the dataset before applying machine learning algorithms.
-- Combined views like `results.png` provide a quick overview for stakeholders and teammates.
-
----
