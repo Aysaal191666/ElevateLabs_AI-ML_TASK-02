@@ -21,10 +21,22 @@ Understand the structure, distribution, and patterns in the data using visual an
 ## 📁 Dataset
 Titanic Dataset from Kaggle: [Link](https://www.kaggle.com/datasets/yasserh/titanic-dataset)
 
-## 📸 Sample Outputs
-- Boxplot showing Age distribution by Survival
-- Heatmap for correlation matrix
-- Histograms of Fare, Age, etc.
+## 📊 Visualizations Included
+
+### 🔹 Individual Visualizations
+- 📊 **Histograms** of all numeric features (`Age`, `Fare`, `SibSp`, `Parch`, etc.)
+- 📦 **Boxplot** showing the distribution of `Age` by `Survived` status
+- 🔥 **Correlation heatmap** to observe linear relationships between numeric features
+- 🌀 **Pairplot** of `Age`, `Fare`, and `Pclass` against survival status for multivariate exploration
+
+### 🖼️ Combined Visual Summary in `results.png`
+The following visualizations are saved in one single image file named **`results.png`**:
+- Histogram of `Fare`
+- Boxplot of `Age` vs `Survived`
+- Correlation Heatmap
+- Scatter Plot: `Age` vs `Fare` colored by `Survived`
+
+This compact summary provides a quick visual overview of key relationships and patterns in the Titanic dataset.
 
 ## 📌 How to Run
 1. Clone the repository.
