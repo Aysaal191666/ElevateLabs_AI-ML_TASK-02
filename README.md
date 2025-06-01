@@ -41,6 +41,6 @@ This compact summary provides a quick visual overview of key relationships and p
 ## 📌 How to Run
 1. Clone the repository.
 2. Install dependencies using `pip install -r requirements.txt`.
-3. Open `titanic_eda.ipynb` and run all cells.
+3. Open `Task-02.ipynb` and run all cells.
 
 ---
